@@ -3,9 +3,9 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Debug Main",
+      "name": "Debug App",
       "request": "launch",
-      "mainClass": "Main",
+      "mainClass": "App",
       "classPaths": ["${workspaceFolder}/bin"],
       "cwd": "${workspaceFolder}"
     }

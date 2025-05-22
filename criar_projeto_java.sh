@@ -34,7 +34,7 @@ cat > "$PROJETO/.vscode/tasks.json" <<EOF
       "args": [
         "-g",
         "-d", "bin",
-        "src/Main.java"
+        "src/App.java"
       ],
       "group": {
         "kind": "build",
@@ -53,9 +53,9 @@ cat > "$PROJETO/.vscode/launch.json" <<EOF
   "configurations": [
     {
       "type": "java",
-      "name": "Debug Main",
+      "name": "Debug App",
       "request": "launch",
-      "mainClass": "Main",
+      "mainClass": "App",
       "classPaths": ["\${workspaceFolder}/bin"],
       "cwd": "\${workspaceFolder}"
     }

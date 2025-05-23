@@ -8,7 +8,7 @@
       "args": [
         "-g",
         "-d", "bin",
-        "src/App.java src/ChessGUI.java"
+        "src/App.java","src/ChessGUI.java"
       ],
       "group": {
         "kind": "build",

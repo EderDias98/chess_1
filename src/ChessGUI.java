@@ -26,7 +26,7 @@ public class ChessGUI extends JFrame {
         this.add(tabuleiro, gbc);
 
         this.setVisible(true);
-        
+        tabuleiro.colocarPecas();
         addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentResized(java.awt.event.ComponentEvent evt) {
                 int w = getContentPane().getWidth();
@@ -42,8 +42,6 @@ public class ChessGUI extends JFrame {
           
             }
         });
-
-        tabuleiro.colocarPecas();
            
     }
 

@@ -8,7 +8,7 @@
       "args": [
         "-g",
         "-d", "bin",
-        "src/Main.java"
+        "src/*.java"
       ],
       "group": {
         "kind": "build",

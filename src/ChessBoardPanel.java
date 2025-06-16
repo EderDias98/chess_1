@@ -9,8 +9,13 @@ public class ChessBoardPanel extends JLayeredPane {
     private int squareSize;
     SquarePanel[][] casas = new SquarePanel[rows][cols];
     private ArrayList<PieceLabel> pieceLabels = new ArrayList<>();
+    private Board tabu;
+    public Board getTabu() {
+        return tabu;
+    }
 
     public ChessBoardPanel() {
+        this.tabu = new Board();
         setLayout(null);
 
         squareSize = 600 / 8;
